@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const API = axios.create({
-    baseURL: "http://autoaxis.duckdns.org/api",
+    baseURL: "https://autoaxis.duckdns.org/api",
 });
 
 API.interceptors.request.use((config) => {
